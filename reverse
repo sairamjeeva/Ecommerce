@@ -1,0 +1,15 @@
+reverse string program
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+// reverse string from given string
+class Main {
+    public static void main(String[] args) {
+        String name="sairambavathu";
+        String reverse="";
+        for(int i=name.length()-1;i>=0;i--){
+            reverse=reverse+name.charAt(i);
+        }
+        System.out.print(reverse);
+
+    }
